@@ -16,4 +16,16 @@ showImageBtn.addEventListener("click", function() {
         myImage.style.display = "none";
       }
 });
-// 
+
+// JavaScript
+var showGifBtn = document.getElementById("showGifBtn");
+var myGif = document.getElementById("myGif");
+
+showGifBtn.addEventListener("click", function() {
+  if (myGif.style.display === "none") {
+    myGif.src = "kenny-bailando.gif";
+    myGif.style.display = "block";
+  } else {
+    myGif.style.display = "none";
+  }
+});
